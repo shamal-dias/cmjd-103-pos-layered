@@ -4,13 +4,15 @@
  */
 package supermarket.layerd;
 
+import supermarket.layerd.view.LayoutView;
+
 public class SupermarketLayerd {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello");
+        new LayoutView().setVisible(true);
     }
-    
+
 }
